@@ -1,4 +1,4 @@
-name: Build TV Launcher 
+name: Build TV Launcher
 
 on:
   push:
@@ -286,6 +286,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          name: TV Launcher latest build
+          name: TV Launcher latest
           make_latest: true
           files: TvLauncher.apk
